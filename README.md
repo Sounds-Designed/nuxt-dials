@@ -1,4 +1,4 @@
-# Nuxt Knob
+# Nuxt Dials
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -13,16 +13,6 @@ My new Nuxt module for doing amazing things.
 - [🏀 Online playground](https://stackblitz.com/github/@sounds-designed/nuxt-dials?file=playground%2Fapp.vue)
 - [📖 &nbsp;Developers](https://soundsdesigned.com)
 
-<!-- ## Features -->
-<!--  -->
-<!-- Highlight some of the features your module provide here -->
-<!-- - 🔈 &nbsp;Linear Waveforms -->
-<!-- - 🔈 &nbsp;Polar Waveforms -->
-<!-- - 🔈 &nbsp;Animated Waveforms -->
-<!-- - 🔈 &nbsp;Adjustable Image Quality -->
-<!-- - 🔈 &nbsp;Audio Downsampling -->
-<!-- - 🔈 &nbsp;Custom Styled Waveforms -->
-
 ## Quick Setup
 
 Install the module to your Nuxt application with one command:
@@ -31,7 +21,7 @@ Install the module to your Nuxt application with one command:
 npx nuxi module add @sounds-designed/nuxt-dials
 ```
 
-That's it! You can now use the knbos module in your Nuxt app ✨
+That's it! You can now use the dials module in your Nuxt app ✨
 
 
 ## Contribution
