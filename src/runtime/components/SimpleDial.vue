@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type ISimpleDialProps } from '../types';
+import type { ISimpleDialProps } from '../types';
 
 const props = withDefaults(defineProps<ISimpleDialProps>(), {});
 </script>
