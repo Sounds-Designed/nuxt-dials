@@ -10,7 +10,6 @@
       <UPageBody>
         <div>
           <BaseDial />
-          <SimpleDial />
         </div>
       </UPageBody>
     </UContainer>
