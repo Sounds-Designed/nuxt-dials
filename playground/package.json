@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "@sounds-designed/nuxt-dials-playground",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@iconify-json/lucide": "^1.2.82",
+    "@iconify-json/simple-icons": "^1.2.63",
+    "@jest/globals": "^30.2.0",
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/scripts": "^0.13.2",
+    "@nuxt/test-utils": "^3.21.0",
+    "@nuxt/ui": "^4.3.0",
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/node": "latest",
+    "@vueuse/core": "^14.1.0",
+    "@vueuse/nuxt": "^14.1.0",
+    "changelogen": "^0.6.2",
+    "defu": "^6.1.4",
+    "eslint": "^9.39.2",
+    "happy-dom": "^20.0.11",
+    "jest": "^30.2.0",
+    "nuxt": "^4.2.2",
+    "playwright-core": "^1.57.0",
+    "reka-ui": "^2.7.0",
+    "sass": "^1.97.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwind-variants": "^3.2.2",
+    "tailwindcss": "^4.1.18",
+    "ts-jest": "^29.4.6",
+    "tsup": "^8.5.1",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "devDependencies": {
+
+  }
+}
