@@ -1,4 +1,4 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, addComponent } from '@nuxt/kit'
 import type { ModuleOptions } from 'nuxt/schema';
 
 export type * from './runtime/types'
@@ -24,5 +24,15 @@ export default defineNuxtModule<NuxtDialsOptions>({
 
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
+
+    addComponent({
+      name: 'BaseDial',
+      filePath: resolver.resolve('runtime/components/BaseDial.vue'),
+    })
+
+    addComponent({
+      name: 'SimpleDial',
+      filePath: resolver.resolve('runtime/components/SimpleDial.vue'),
+    })
   },
 })

@@ -3,5 +3,16 @@
 </script>
 
 <template>
-<div></div>
+  <UPage>
+    <UContainer>
+      <UPageHeader title="Dial Examples" />
+
+      <UPageBody>
+        <div>
+          <BaseDial />
+          <SimpleDial />
+        </div>
+      </UPageBody>
+    </UContainer>
+  </UPage>
 </template>
